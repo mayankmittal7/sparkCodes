@@ -1,6 +1,7 @@
 name: CI using S3
 
-on: [push]
+on: 
+  push:
     branches:
     - master
 
